@@ -2,6 +2,7 @@
 
 Downloads the icalendar file as per timezone detected on user's device. It leverages the [jsTimezoneDetect](https://github.com/pellepim/jstimezonedetect) library (included with the extension) for automatic detection and setting of a user's timezone via javascript. This timezone is used in the ical file.
 
+This was specifically developed for online events where if the user clicks on the ical link downloads and sets the time on their calendar as per the timezone. So the calendar is setup with the exact 'local' time of attending the event(eg webinar).
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
