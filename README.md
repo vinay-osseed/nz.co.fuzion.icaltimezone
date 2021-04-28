@@ -1,15 +1,14 @@
 # nz.co.fuzion.icaltimezone
 
-![Screenshot](/images/screenshot.png)
+Downloads the icalendar file as per timezone detected on user's device. It leverages the [jsTimezoneDetect](https://github.com/pellepim/jstimezonedetect) library (included with the extension) for automatic detection and setting of a user's timezone via javascript. This timezone is used to download the ical file.
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
 * PHP v7.0+
-* CiviCRM (*FIXME: Version number*)
+* CiviCRM
 
 ## Installation (Web UI)
 
@@ -22,7 +21,7 @@ install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
 cd <extension-dir>
-cv dl nz.co.fuzion.icaltimezone@https://github.com/FIXME/nz.co.fuzion.icaltimezone/archive/master.zip
+cv dl nz.co.fuzion.icaltimezone@https://github.com/fuzionnz/nz.co.fuzion.icaltimezone/archive/master.zip
 ```
 
 ## Installation (CLI, Git)
@@ -31,14 +30,11 @@ Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) 
 install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
-git clone https://github.com/FIXME/nz.co.fuzion.icaltimezone.git
+git clone https://github.com/fuzionnz/nz.co.fuzion.icaltimezone.git
 cv en icaltimezone
 ```
 
 ## Usage
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
+- Download and install the extension.
+- That's it. The ical file downloaded from `/civicrm/event/ical?reset=1&id=<event_id>` will be downloaded and will display the time based on the timezone set on the user's device.
