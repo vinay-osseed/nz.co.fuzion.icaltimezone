@@ -1,4 +1,4 @@
-# Timezone for Event Icalendar.
+# Timezone for Event ICalendar.
 
 Downloads the icalendar file as per timezone detected on user's device. It leverages the [jsTimezoneDetect](https://github.com/pellepim/jstimezonedetect) library (included with the extension) for automatic detection and setting of a user's timezone via javascript. This timezone is used to download the ical file.
 
