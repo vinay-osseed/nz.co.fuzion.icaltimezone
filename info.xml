@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <extension key="nz.co.fuzion.icaltimezone" type="module">
   <file>icaltimezone</file>
-  <name>Event ICal Timezone</name>
-  <description>Sets time on the ical file as per the timezone set on the user's device</description>
+  <name>Timezone for Event ICalendar</name>
+  <description>Downloads the icalendar file as per timezone detected on user's device.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Jitendra Purohit</author>
